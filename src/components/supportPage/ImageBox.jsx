@@ -9,14 +9,18 @@ export default function ImageBox({ img }) {
           />
 
           <div className="pointer-events-none absolute grid place-items-center w-full h-full z-20 bg-[#3636365c] top-0  left-0">
-            <div>Center Image</div>
+            <img
+              src="https://www.royalenfield.com/content/dam/royal-enfield/india/support/home/logos/call.svg"
+              width="200px"
+            />
           </div>
         </div>
 
         <div className="h-[90px] w-full  bg-black flex flex-col items-center py-[10px]">
           <div className=" font-Guardian-Medium text-lg">Classic 350</div>
-          <div className="border border-[white] h-[35px] px-5  hover:text-red-500 grid place-items-center text-white font-Montserrat text-xs font-[600] tracking-wide transition-all duration-1000 cursor-pointer mt-2">
-            Explore <span>&gt;</span>
+          <div className="border   border-[white] h-[35px] px-5  hover:text-red-500 flex items-center text-white font-Montserrat text-xs font-[600] tracking-wide transition-colors duration-500 cursor-pointer mt-2">
+            <div>Explore</div>
+            <div className="ml-[5px] pt-[1px]">&gt;</div>
           </div>
         </div>
       </div>

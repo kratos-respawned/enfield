@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../style.css";
 export default function Card() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function Card() {
             <div className="text-white font-Guardian-Medium text-lg">
               Classic 350
             </div>
-            <div className="border border-[white] h-[35px] w-[100px] hover:bg-white hover:text-[#d1291c] grid place-items-center text-white font-Montserrat text-xs font-[600] tracking-wide transition-all duration-1000 cursor-pointer mt-2">
+            <div className="border border-[white] h-[35px] w-[100px]  hover:bg-white hover:text-[#d1291c] grid place-items-center text-white font-Montserrat text-xs font-[600] tracking-wide transition-all duration-1000 cursor-pointer mt-2">
               Explore &gt;
             </div>
           </div>
