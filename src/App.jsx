@@ -6,12 +6,11 @@ function App() {
   return (
     <>
       <div className="bg-[#212121] h-screen">
-      <Navbar />
-      {/* <Routes>
-        <Route path="/" element={<Support />} />
-        <Route path="/motorcycle" element={<Motorcycles />} />
-      </Routes> */}
-      <Motorcycles/>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Motorcycles />} />
+          <Route path="/s" element={<Support />} />
+        </Routes>
       </div>
     </>
   );

@@ -17,29 +17,29 @@ export default function Navbar() {
           />
         </div>
         <div className="hidden md:block">
-          <ul className="">
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+          <ul className="flex">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Motorcycles
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Service
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Locate Us
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Rides
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Accessories
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Apparel
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Our World
             </li>
-            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Support
             </li>
           </ul>

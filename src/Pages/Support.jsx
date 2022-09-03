@@ -1,13 +1,12 @@
-import ImageBox from "../components/ImageBox";
-import img1 from "../assets/supportCall.jpg";
+import ImageBox from "../components/supportPage/ImageBox";
 export default function Support() {
   return (
     <>
-      <div className="flex flex-col pt-14 md:pt-[70px] lg:pt-20 text-black">
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
+      <div className="flex flex-col  text-black">
+        <ImageBox />
+        {/* <ImageBox  />
+        <ImageBox  />
+        <ImageBox  /> */}
       </div>
     </>
   );
