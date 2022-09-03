@@ -123,7 +123,7 @@ export default function Navbar() {
       <div
         className={` md:hidden ${
           status ? " block " : " hidden "
-        } bg-[#212121]  overflow-y-auto h-[calc(100vh-56px)] w-full fixed top-[56px] left-0`}
+        } bg-[#212121]  overflow-y-auto h-[calc(100vh-56px)] w-full z-[990] fixed top-[56px] left-0`}
       >
         <ul>
           <li className="py-3 text-[18px] px-12">

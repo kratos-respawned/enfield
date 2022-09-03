@@ -1,17 +1,16 @@
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import img1 from "./assets/supportCall.jpg";
-import ImageBox from "./components/ImageBox";
+import Support from "./Pages/Support";
+import Motorcycles from "./Pages/Motorcycle";
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="flex flex-col pt-14 md:pt-[70px] lg:pt-20 text-black">
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
-        <ImageBox img={img1} />
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Support />} />
+        <Route path="/motorcycle" element={<Motorcycles />} />
+      </Routes>
+    </>
   );
 }
 
