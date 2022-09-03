@@ -5,11 +5,14 @@ import Motorcycles from "./Pages/Motorcycle";
 function App() {
   return (
     <>
+      <div className="bg-[#212121] h-screen">
       <Navbar />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Support />} />
         <Route path="/motorcycle" element={<Motorcycles />} />
-      </Routes>
+      </Routes> */}
+      <Motorcycles/>
+      </div>
     </>
   );
 }

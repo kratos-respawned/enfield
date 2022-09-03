@@ -4,7 +4,7 @@ export default function Navbar() {
   const [status, setStatus] = useState(false);
   return (
     <div className="text-white">
-      <nav className="fixed w-full z-50 flex justify-between items-center bg-black text-white px-4">
+      <nav className="w-full z-50 flex justify-between items-center bg-black h-[75px] text-white px-4">
         <div
           onClick={() => {
             console.log("gotohome");
@@ -18,28 +18,28 @@ export default function Navbar() {
         </div>
         <div className="hidden md:block">
           <ul className="">
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Motorcycles
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Service
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Locate Us
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Rides
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Accessories
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Apparel
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Our World
             </li>
-            <li className="inline-block lg:font-bold md:font-semibold px-1 py-7 xl:text-base lg:text-sm md:text-[10px] hover:text-red-500">
+            <li className="inline-block font-semibold px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Support
             </li>
           </ul>

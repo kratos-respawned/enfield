@@ -1,7 +1,10 @@
+import Heading from "../components/Motorcyle Page Components/Heading";
+import Card from "../components/Motorcyle Page Components/Card";
 export default function Motorcycles() {
   return (
     <>
-      <h1 className="font-bold text-5xl">Test</h1>
+      <Heading/>
+      <Card/>
     </>
   );
 }
