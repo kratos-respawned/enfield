@@ -34,10 +34,10 @@ export default function Navbar() {
         className={` ${
           show
             ? " opacity-100  "
-            : window.scrollY > 100
+            : window.scrollY > 200
             ? "  opacity-0 pointer-events-none  "
             : null
-        }${window.scrollY > 100 ? " fixed " : " opacity-100 "} 
+        }${window.scrollY > 200 ? " fixed " : " opacity-100 "} 
         w-full  transition-all z-50 flex justify-between items-center bg-black h-[75px] text-white px-4`}
       >
         <div
