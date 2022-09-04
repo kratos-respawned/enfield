@@ -1,10 +1,11 @@
 import React from 'react'
 import { Select, Option } from "@material-tailwind/react";
+import Maprow from '../components/Motorcyle Page Components/Maprow';
 export default function Form() {
     return (
         <>
-            <div className="bg-[#212121] h-sfull flex flex-col items-center bg-[url('https://www.royalenfield.com/content/dam/royal-enfield/india/support/become-a-dealer/desktop/become_a_dealer.jpg')] bg-cover bg-fixed">
-                <div className="container bg-white w-[90%] md:w-[750px] lg:w-[875px] px-[15px] py-6 mt-48">
+            <div className="bg-[#212121] h-full flex flex-col items-center bg-[url('https://www.royalenfield.com/content/dam/royal-enfield/india/support/become-a-dealer/desktop/become_a_dealer.jpg')] bg-cover bg-fixed">
+                <div className="container bg-white w-[90%] md:w-[750px] lg:w-[875px] px-[15px] py-6 mt-48 pb-16 mb-12">
                     <p className='font-Montserrat text-[14px] font-[500] text-[#212529] text-left'>
 
                         At Royal Enfield, we endeavour to partner our patrons and customers in their journeys of exploration. Our main objective is to provide an immersive brand and retail experience in addition to ensuring a superior product experience. Our dealers, distributors and network teams are our extended partners in this task. <br /><br />
@@ -45,9 +46,9 @@ export default function Form() {
                                 <p className='font-Montserrat text-[14px] text-[#212121] font-semibold text-left'>Own a Royal Enfield</p>
                                 <div className="flex flex-row items-center justify-start my-1">
                                     <input id="red-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 mx-1 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                                    <label for="red-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
+                                    <label for="red-radio" class="ml-2 text-sm font-Montserrat font-medium text-gray-900 dark:text-gray-300">Yes</label>
                                     <input id="red-radio" type="radio" value="" name="colored-radio" class="w-4 h-4 ml-7 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                                    <label for="red-radio" class=" ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
+                                    <label for="red-radio" class=" ml-2 text-sm font-Montserrat font-medium text-gray-900 dark:text-gray-300">No</label>
                                 </div>
                             </div>
                         </div>
@@ -68,12 +69,17 @@ export default function Form() {
                         <p className='font-Montserrat text-[14px] font-[500] text-[#212529] text-left mt-7'>
                             Disclaimer: By signing this form/checking this box, you acknowledge and agree that we may use the information you share with us, to communicate with you through e-mails, text messages, WhatsApp and calls, in order to provide our product or service related information and/or for promotional and marketing purposes. All information provided will be secured and processed as per our <b>privacy policy</b>.
                         </p>
-                        <div class="flex items-center mr-4">
-                            <input checked id="red-checkbox" type="checkbox" value="" class="w-4 h-4 text-red-600 bg-gray-100 rounded border-gray-300 focus:ring-red-500 dark:focus:ring-red-600 focus:ring-2"/>
-                                <label for="red-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Red</label>
+                        <div class="flex items-center mt-12">
+                            <input checked id="red-checkbox" type="checkbox" value="" class="w-4 h-4 text-red-600 bg-gray-100 rounded border-gray-300 focus:ring-red-500 focus:ring-2" />
+                            <label for="red-checkbox" class="ml-2 text-sm font-Montserrat font-medium text-gray-900">
+                                I accept the <b>terms and conditions</b> as well as <b>privacy policy</b>.</label>
                         </div>
+                        <button type="button" class="text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium font-Montserrat text-sm px-5 py-2.5 text-center inline-flex items-center mt-12 mb-2">
+                            Submit &gt;
+                        </button>
                     </div>
                 </div>
+                <Maprow/>
             </div>
         </>
     );
