@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Support from "./Pages/Support";
 import Motorcycles from "./Pages/Motorcycle";
 import Form from "./Pages/Form";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -12,8 +13,8 @@ function App() {
           <Route path="/" element={<Motorcycles />} />
           <Route path="/s" element={<Support />} />
           <Route path="/f" element={<Form />} />
-          
         </Routes>
+        <Footer />
       </div>
     </>
   );
