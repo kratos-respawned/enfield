@@ -5,7 +5,7 @@ import lowerRowData from "../helper/supportPage_lowerRow.js";
 export default function Support() {
   return (
     <>
-      <div className="grid grid-rows-2">
+      <div className="">
         <div className="flex flex-col md:flex-row md:flex-wrap text-white">
           {upperRowData.map((card, key) => {
             return (

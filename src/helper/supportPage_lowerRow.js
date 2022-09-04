@@ -14,7 +14,7 @@ const lowerRowData = [
   },
   {
     heading: "Service Recall-Classic 350",
-    bg: "https://www.royalenfield.com/content/dam/royal-enf…india/support/home/service-recall-classic-350.png",
+    bg: "https://www.royalenfield.com/content/dam/royal-enfield/india/support/home/service-recall-classic-350.png",
   },
 ];
 
