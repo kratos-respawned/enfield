@@ -4,7 +4,7 @@ import Maprow from "../components/Motorcyle Page Components/Maprow";
 export default function Motorcycles() {
   return (
     <>
-      <Heading/>
+      <Heading title="Motorcycles"/>
       <div className="flex flex-row flex-wrap">
         <Card/>
         <Card/>
