@@ -8,6 +8,48 @@ export default function Support() {
         <ImageBox />
         <ImageBox />
       </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
+      <div className="flex flex-col md:flex-row md:flex-wrap text-black">
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+        <ImageBox />
+      </div>
     </>
   );
 }

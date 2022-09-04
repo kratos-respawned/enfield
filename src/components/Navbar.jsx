@@ -1,10 +1,40 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../assets/logo.svg";
 export default function Navbar() {
+  const [show, setShow] = useState(true);
   const [status, setStatus] = useState(false);
+
+  function checkScrollDirectionIsUp(event) {
+    if (event.wheelDelta) {
+      return event.wheelDelta > 0;
+    }
+    return event.deltaY < 0;
+  }
+
+  function checkScrollDirection(event) {
+    if (checkScrollDirectionIsUp(event)) {
+      setTimeout(() => {
+        setShow(true);
+      }, 500);
+    } else {
+      setTimeout(() => {
+        setShow(false);
+      }, 500);
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("wheel", checkScrollDirection);
+    return () => {
+      window.removeEventListener("wheel", checkScrollDirection);
+    };
+  }, []);
   return (
     <div className="text-white">
-      <nav className="w-full z-50 flex justify-between items-center bg-black h-[75px] text-white px-4">
+      <nav
+        className={` ${
+          show ? " opacity-100  " : "  opacity-0 pointer-events-none  "
+        } w-full  transition-opacity fixed z-50 flex justify-between items-center bg-black h-[75px] text-white px-4`}
+      >
         <div
           onClick={() => {
             console.log("gotohome");
@@ -93,7 +123,7 @@ export default function Navbar() {
               } top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6`}
               fill="#fff"
               xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
+              enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
             >
               <path
