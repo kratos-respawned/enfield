@@ -6,7 +6,7 @@ import Form from "./Pages/Form";
 function App() {
   return (
     <>
-      <div className="bg-[#212121] h-full">
+      <div className="flex flex-col bg-[#212121] h-full">
         <Navbar />
         <Routes>
           <Route path="/" element={<Motorcycles />} />

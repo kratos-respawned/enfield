@@ -33,7 +33,7 @@ export default function Navbar() {
       <nav
         className={` ${
           show ? " opacity-100  " : "  opacity-0 pointer-events-none  "
-        } w-full  transition-opacity fixed z-50 flex justify-between items-center bg-black h-[75px] text-white px-4`}
+        } w-full  transition-opacity z-50 flex justify-between items-center bg-black h-[75px] text-white px-4`}
       >
         <div
           onClick={() => {

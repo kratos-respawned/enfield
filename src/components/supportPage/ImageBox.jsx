@@ -11,7 +11,7 @@ export default function ImageBox({ img }) {
           />
           <img
             src="https://www.royalenfield.com/content/dam/royal-enfield/india/support/home/logos/call.svg"
-            className="w-[30vw] md:w-[50px] lg:w-[65px] xl:w-[96px] z-20 "
+            className="w-[30vw] md:w-[50px] lg:w-[65px] xl:w-[96px] z-20  -translate-y-3"
           />
           <div className="xl:hidden h-[100px] w-full absolute bottom-0 bg-[rgba(33,33,33)] flex flex-col items-center py-[10px]">
             <div className="text-white font-Guardian-Medium text-lg">
@@ -32,13 +32,13 @@ export default function ImageBox({ img }) {
           />
           <img
             src="https://www.royalenfield.com/content/dam/royal-enfield/india/support/home/logos/call.svg"
-            className="w-[30px] md:w-[50px] lg:w-[65px] xl:w-[96px] z-20 "
+            className="w-[30px] md:w-[50px] lg:w-[65px] xl:w-[96px] z-20  -translate-y-3"
           />
           <div className="bottomBox h-[200px] z-30 w-full absolute -bottom-20 bg-[rgba(33,33,33)] flex flex-col items-center py-[10px] transition-all duration-500">
             <div className="text-white font-Guardian-Medium text-lg">
               Classic 350
             </div>
-            <div className="mt-2 text-white font-Montserrat min-h-[65px] text-[13px] leading-[22px] font-semibold break-words text-center px-[30px]">
+            <div className="mt-2 w-[85%] text-white font-Montserrat min-h-[65px] text-[13px] leading-[22px] font-semibold break-words text-center px-[30px]">
               For assistance on all things Enfield, contact us at: 1800 210 0007
               (Roadside Assistance 24X7 &amp; Customer Care 9 AM - 9 PM)
             </div>
