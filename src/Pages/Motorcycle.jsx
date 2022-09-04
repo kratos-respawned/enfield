@@ -4,7 +4,14 @@ export default function Motorcycles() {
   return (
     <>
       <Heading/>
-      <Card/>
+      <div className="flex flex-row flex-wrap">
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
     </>
   );
 }

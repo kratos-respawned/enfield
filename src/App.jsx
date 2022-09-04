@@ -5,7 +5,7 @@ import Motorcycles from "./Pages/Motorcycle";
 function App() {
   return (
     <>
-      <div className="bg-[#212121] h-screen">
+      <div className="bg-[#212121] h-full">
         <Navbar />
         <Routes>
           <Route path="/" element={<Motorcycles />} />
