@@ -5,7 +5,7 @@ export default function Maprow() {
     return (
         <>
 
-            <div className="flex flex-row flex-wrap items-center justify-evenly w-full h-[140px] bg-[#212121]">
+            <div className="flex flex-row flex-wrap items-center justify-evenly w-full h-full py-10 md:py-20 bg-[#212121]">
 
                 <MapItems />
                 <MapItems />

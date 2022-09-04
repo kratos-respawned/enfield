@@ -4,6 +4,7 @@ import upperRowData from "../helper/supportPage_upper.js";
 import lowerRowData from "../helper/supportPage_lowerRow.js";
 import Heading from "../components/Motorcyle Page Components/Heading";
 import FaqRow from "../components/supportPage/FaqRow";
+import Maprow from "../components/Motorcyle Page Components/Maprow";
 export default function Support() {
   return (
     <>
@@ -36,6 +37,7 @@ export default function Support() {
       </div>
       <Heading title="Frequently Asked Questions" size="25px"/>
       <FaqRow/>
+      <Maprow/>
     </>
   );
 }

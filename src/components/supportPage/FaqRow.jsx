@@ -3,31 +3,33 @@ import React from 'react'
 export default function FaqRow() {
   return (
     <>
-      <div className="flex flex-row mt-2">
-        <div className="flex flex-col items-center w-[30%] bg-[#D5D5D5] h-[900px]">
-          <div className="w-[81%] h-full flex flex-col py-12">
+      <div className="flex flex-row flex-wrap mt-2 h-[600px]">
+        <div className="flex flex-col items-center w-[100%] md:w-[30%] bg-[#D5D5D5] h-full md:h-[600px]">
+          <div className="md:w-[81%] w-[90%] h-full flex flex-col py-12">
             <h2 className="mb-5 font-semibold text-black font-Guardian-Semibold text-[24px]">
               Categories
             </h2>
             <div className="font-Montserrat text-[13px] text-black font-semibold">
               Pick a Category
             </div>
-            <div className="cursor-pointer mt-5 font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
+            <div className="w-full md:hidden mt-7 border border-[rgb(33,33,33)] h-[45px] md:w-[200px] lg:w-[250px] font-Guardian-Semibold text-[16px] text-black font-semibold flex flex-row items-center px-3">Motorcycles</div>
+
+            <div className="cursor-pointer hidden md:block mt-5 font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
               Motorcycles
             </div>
-            <div className="cursor-pointer font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
+            <div className="cursor-pointer hidden md:block font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
               Safety
             </div>
-            <div className="cursor-pointer font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
+            <div className="cursor-pointer hidden md:block font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
               Customer Service
             </div>
-            <div className="cursor-pointer font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
+            <div className="cursor-pointer hidden md:block font-Montserrat text-[13px] text-black font-semibold hover:text-[#d1291c] py-5 border-b border-gray-800 ">
               General
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center w-[70%] bg-[#fff] h-[900px]">
-          <div className="w-[81%] h-full flex flex-col py-12">
+        <div className="flex flex-col items-center w-[100%] md:w-[70%] bg-[#fff] h-full">
+          <div className="md:w-[81%] w-[90%] h-full flex flex-col py-5 md:py-12">
           <h2 className="mb-5 font-semibold text-black font-Guardian-Semibold text-[24px]">
               Motorcycles
             </h2>
