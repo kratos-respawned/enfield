@@ -45,7 +45,7 @@ export default function Form() {
               <div className="w-full my-1 border border-[rgb(33,33,33)] h-[45px] md:w-[200px] lg:w-[250px] ">
                 <Select
                   value={country}
-                  className="rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
+                  className="grid rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
                 >
                   <Option value={1}>India</Option>
                   <Option
@@ -85,7 +85,7 @@ export default function Form() {
               <div className="w-full my-1 border border-[rgb(33,33,33)] h-[45px] md:w-[200px] lg:w-[250px] ">
                 <Select
                   value={state}
-                  className="rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
+                  className="grid rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
                 >
                   <Option value={1} disabled>
                     Select State
@@ -135,7 +135,7 @@ export default function Form() {
               <div className="w-full my-1 border border-[rgb(33,33,33)] h-[45px] md:w-[200px] lg:w-[250px] ">
                 <Select
                   value={district}
-                  className="rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
+                  className="grid rounded-none outline-none border-none focus:outline-none hover:outline-none focus:border-none hover:border-none hover:border-t-0"
                 >
                   <Option value={1} disabled>
                     Select District
