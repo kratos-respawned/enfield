@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 export default function Navbar() {
   const [show, setShow] = useState(true);
@@ -36,7 +37,7 @@ export default function Navbar() {
             ? " opacity-100  "
             : window.scrollY > 200
             ? "  opacity-0 pointer-events-none  "
-            : null
+            : " pointer-events-auto "
         }${window.scrollY > 200 ? " fixed " : " opacity-100 "} 
         w-full  transition-all z-50 flex justify-between items-center bg-black h-[75px] text-white px-4`}
       >
@@ -54,7 +55,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <ul className="flex">
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
-              Motorcycles
+              <Link to="/">Motorcycles</Link>
             </li>
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Service
@@ -75,7 +76,7 @@ export default function Navbar() {
               Our World
             </li>
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
-              Support
+              <Link to="/s">Support</Link>
             </li>
           </ul>
         </div>
@@ -162,7 +163,7 @@ export default function Navbar() {
       >
         <ul>
           <li className="py-3 text-[18px] px-12">
-            <a href="#"> Motorcycles</a>
+            <Link to="/">Motorcycles</Link>
           </li>
           <li className="py-3 text-[18px] px-12">
             <a href="#"> Services</a>
@@ -183,7 +184,7 @@ export default function Navbar() {
             <a href="#"> Our </a>World
           </li>
           <li className="py-3 text-[18px] px-12">
-            <a href="#"> Support</a>
+            <Link to="/s">Support</Link>
           </li>
         </ul>
         <ul className="my-2 mx-12 w-[250px] border-white border-[1px] flex items-center">
