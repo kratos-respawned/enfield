@@ -8,6 +8,7 @@ import Maprow from "../components/Motorcyle Page Components/Maprow";
 export default function Support() {
   return (
     <>
+      <div className="flex flex-col w-full bg-[#D5D5D5] h-full">
       <div className="">
         <div className="flex flex-col md:flex-row md:flex-wrap text-white">
           {upperRowData.map((card, key) => {
@@ -38,6 +39,7 @@ export default function Support() {
       <Heading title="Frequently Asked Questions" size="25px"/>
       <FaqRow/>
       <Maprow/>
+      </div>
     </>
   );
 }

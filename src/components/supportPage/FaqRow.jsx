@@ -7,8 +7,8 @@ export default function FaqRow() {
   const [head, setHead] = useState(cat[0]);
   return (
     <>
-      <div className="flex flex-row flex-wrap mt-2 h-[600px]">
-        <div className="flex flex-col items-center w-[100%] md:w-[30%] bg-[#D5D5D5] h-full md:h-[600px]">
+      <div className="flex flex-row flex-wrap mt-2 min-h-fit">
+        <div className="flex flex-col items-center w-[100%] md:w-[30%] bg-[#D5D5D5] h-full min-h-fit">
           <div className="md:w-[81%] w-[90%] h-full flex flex-col py-12">
             <h2 className="mb-5 font-semibold text-black font-Guardian-Semibold text-[24px]">
               Categories
@@ -62,7 +62,10 @@ export default function FaqRow() {
             </div>
           </div>
         </div>
-        <Question ques={q} head={head} />
+        <div className="flex flex-col items-center w-[100%] md:w-[70%] bg-[#fff] h-full min-h-fit">
+          <Question ques={q} head={head} />
+        </div>
+
       </div>
     </>
   );
