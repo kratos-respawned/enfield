@@ -58,7 +58,10 @@ export default function Navbar() {
               <Link to="/">Motorcycles</Link>
             </li>
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
-              Service
+              <Link to="/f">Become A Dealer</Link>
+            </li>
+            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
+              <Link to="/s">Support</Link>
             </li>
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Locate Us
@@ -74,9 +77,6 @@ export default function Navbar() {
             </li>
             <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
               Our World
-            </li>
-            <li className="font-semibold md:px-0 lg:px-1 px-1 py-7 text-xs cursor-pointer tracking-wider mx-1 hover:text-red-500">
-              <Link to="/s">Support</Link>
             </li>
           </ul>
         </div>
@@ -166,7 +166,10 @@ export default function Navbar() {
             <Link to="/">Motorcycles</Link>
           </li>
           <li className="py-3 text-[18px] px-12">
-            <a href="#"> Services</a>
+            <Link to="/f">Become A Dealer</Link>
+          </li>
+          <li className="py-3 text-[18px] px-12">
+            <Link to="/s">Support</Link>
           </li>
           <li className="py-3 text-[18px] px-12">
             <a href="#"> Locate Us</a>
@@ -182,9 +185,6 @@ export default function Navbar() {
           </li>
           <li className="py-3 text-[18px] px-12">
             <a href="#"> Our </a>World
-          </li>
-          <li className="py-3 text-[18px] px-12">
-            <Link to="/s">Support</Link>
           </li>
         </ul>
         <ul className="my-2 mx-12 w-[250px] border-white border-[1px] flex items-center">
