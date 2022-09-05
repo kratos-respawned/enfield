@@ -5,6 +5,7 @@ import lowerRowData from "../helper/supportPage_lowerRow.js";
 import Heading from "../components/Motorcyle Page Components/Heading";
 import FaqRow from "../components/supportPage/FaqRow";
 import Maprow from "../components/Motorcyle Page Components/Maprow";
+import React from "react";
 export default function Support() {
   return (
     <>
@@ -30,7 +31,8 @@ export default function Support() {
                 img={card.bg}
                 heading={card.heading}
                 text={card.text}
-                key={key}
+                key={key} 
+                btn={card.btn}
               />
             );
           })}
