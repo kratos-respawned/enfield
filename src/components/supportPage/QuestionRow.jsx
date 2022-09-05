@@ -18,7 +18,7 @@ export default function QuestionRow(props) {
           <span>{props.question}</span>
           <svg
             data-accordion-icon=""
-            className={`w-6 h-6 ${status ? " " : " rotate-180 "} shrink-0`}
+            className={`w-6 h-6 ${status ? " rotate-180 " : "  "} shrink-0`}
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
